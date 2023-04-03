@@ -4,6 +4,7 @@ const logo = document.getElementById("nav_logo")
 const reviews = document.getElementById("nav_reviews")
 const contact = document.getElementById("nav_contact")
 
+// scrolls to different sections of the page depening on what button is clicked
 service.addEventListener("click", function (e) {
     window.scrollTo({
         top: 560,
@@ -47,6 +48,7 @@ contact.addEventListener("click", function (e) {
 const form = document.getElementById("form_qoute");
 const result = document.getElementById("result");
 
+// sends formdata to webform which then send me a email 
 form.addEventListener("submit", function (e) {
     const formData = new FormData(form);
     e.preventDefault();
