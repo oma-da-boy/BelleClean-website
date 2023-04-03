@@ -1,3 +1,4 @@
+/* Elements */
 body {
     background-color: #fdf0f0;
     overflow-x: hidden;
@@ -23,6 +24,8 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+/* Classes */
 
 .bi-facebook {
     margin-right: 20px;
@@ -244,6 +247,8 @@ input::-webkit-inner-spin-button {
     width: 24rem;
 }
 
+/* IDS */
+
 #about_us {
     margin-top: 20px;
     margin-bottom: 25px;
@@ -282,8 +287,6 @@ input::-webkit-inner-spin-button {
     width: fit-content;
 }
 
-
-
 #nav_service,
 #nav_enquiry,
 #nav_logo,
@@ -291,6 +294,8 @@ input::-webkit-inner-spin-button {
 #nav_contact:hover {
     cursor: pointer;
 }
+
+/* Events */
 
 .buttons:hover {
     transition: all 0.5s;
@@ -307,6 +312,8 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
     background-color: #febbbb;
 }
+
+/* Media queries */
 
 @media screen and (max-width: 800px) {
 
