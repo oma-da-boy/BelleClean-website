@@ -1,0 +1,396 @@
+body {
+    background-color: #fdf0f0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #1f4172;
+    margin-bottom: 0;
+}
+
+hr {
+    color: #1f4172;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.bi-facebook {
+    margin-right: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.space {
+    margin-top: 30px;
+}
+
+.head {
+    padding-top: 50px;
+}
+
+.card {
+    width: 250px;
+    height: 310px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: #FADBDB;
+    border-bottom: 5px solid #1f4172;
+}
+
+.content {
+    background-color: #1f4172;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: cr, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    padding-top: 25px;
+    width: 40em;
+}
+
+.header_text {
+    color: #fdf0f0;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nav_text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text {
+    font-family: cr, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.buttons {
+    color: #1f4172;
+    background-color: #fdf0f0;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.alt_buttons {
+    color: #fdf0f0;
+    background-color: #1f4172;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: fit-content;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.booking {
+    margin: auto;
+    width: min-content;
+    background-color: #FADBDB;
+    border: 1px solid #febbbb;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.booking_form {
+    padding-top: 50px;
+    background-image: url(../images/home_2.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.enquiry {
+    background-color: #FADBDB;
+    border: 1px solid #febbbb;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: min-content;
+}
+
+.enquiry_text1 {
+    margin-top: 20px;
+    border: 3px solid #febbbb;
+    border-radius: 10px;
+}
+
+.enquiry_text2 {
+    margin-top: 15px;
+    border: 3px solid #febbbb;
+    border-radius: 10px;
+    width: 24rem;
+}
+
+.booking_text1 {
+    margin-top: 20px;
+    border: 3px solid #febbbb;
+    border-radius: 10px;
+    width: 25rem;
+}
+
+.progress1 {
+    height: 30px;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #FADBDB;
+    border: 1px solid #1f4172;
+    border-right: 0px;
+}
+
+
+.progress2 {
+    height: 30px;
+    border-radius: 0px;
+    background-color: #FADBDB;
+    border: 1px solid #1f4172;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.progress3 {
+    height: 30px;
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FADBDB;
+    border: 1px solid #1f4172;
+    border-left: 0px;
+}
+
+.progress1_done {
+    height: 30px;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #febbbb;
+    border: 1px solid #1f4172;
+    border-right: 0px;
+}
+
+.progress2_done {
+    height: 30px;
+    border-radius: 0px;
+    background-color: #febbbb;
+    border: 1px solid #1f4172;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.progress_bar {
+    width: 600px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #febbbb;
+}
+
+.forms {
+    margin-top: 35px;
+}
+
+.confirmation {
+    width: 24rem;
+}
+
+#about_us {
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+
+#services {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#services_right {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#services_left {
+    margin-top: 20px;
+}
+
+#cover {
+    background-image: url("../images/home.jpg");
+    background-size: cover;
+    border-bottom: 2px solid #1f4172;
+}
+
+#cover2 {
+    background-color: #1f4172;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+#form_quote {
+    width: fit-content;
+}
+
+
+
+#nav_service,
+#nav_enquiry,
+#nav_logo,
+#nav_reviews,
+#nav_contact:hover {
+    cursor: pointer;
+}
+
+.buttons:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    color: #fdf0f0;
+    cursor: pointer;
+    background-color: #febbbb;
+}
+
+.alt_buttons:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    color: #fdf0f0;
+    cursor: pointer;
+    background-color: #febbbb;
+}
+
+@media screen and (max-width: 800px) {
+
+    nav {
+        display: none;
+    }
+
+    .text {
+        font-size: 1.25em;
+    }
+
+    .forms-left,
+    .forms-right {
+        display: block;
+    }
+
+    .enquiry_text1 {
+        margin-top: 15px;
+        border: 3px solid #febbbb;
+        border-radius: 10px;
+        width: 18rem;
+    }
+
+    .enquiry_text2 {
+        margin-top: 15px;
+        border: 3px solid #febbbb;
+        border-radius: 10px;
+        width: 18rem;
+    }
+
+    .booking_text1 {
+        margin-top: 20px;
+        border: 3px solid #febbbb;
+        border-radius: 10px;
+        width: 18rem;
+    }
+
+    .confirmation {
+        width: 18rem;
+    }
+
+    .content {
+        background-color: #1f4172;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: cr, sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.4;
+        padding-top: 25px;
+        width: 18em;
+    }
+
+    #services_right {
+        margin-right: 20px;
+        margin-top: 50px;
+        border-right: 0px;
+        display: block;
+        word-break: keep-all;
+    }
+
+    #services_left {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #services {
+        display: block;
+    }
+
+    .enquiry {
+        width: 20em;
+    }
+
+    .progress1,
+    .progress2,
+    .progress3 {
+        display: none;
+    }
+
+    .progress1_done,
+    .progress2_done {
+        display: none;
+    }
+}
