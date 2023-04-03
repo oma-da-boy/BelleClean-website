@@ -1,10 +1,15 @@
+// This code hides and displays different forms to somewhat simulate a Single page application
+
+// declaring form variables
 const form_page_1 = document.getElementById("form_page_1")
 const form_page_2 = document.getElementById("form_page_2")
 const form_page_3 = document.getElementById("form_page_3")
 
+// Hiding the second and third form
 form_page_2.style.display = "none"
 form_page_3.style.display = "none"
 
+// Displays first form and hides the second
 const back_booking = document.getElementById("back_booking")
 back_booking.addEventListener("click", (e) => {
     e.preventDefault();
@@ -12,6 +17,7 @@ back_booking.addEventListener("click", (e) => {
     form_page_2.style.display = "none"
 })
 
+// Displays second form and hides the first
 const next_booking = document.getElementById("next_booking")
 next_booking.addEventListener("click", (e) => {
     e.preventDefault();
@@ -19,6 +25,7 @@ next_booking.addEventListener("click", (e) => {
     form_page_2.style.display = "block"
 })
 
+// Displays second form and hides the third
 const back_booking_freq = document.getElementById("back_booking_freq")
 back_booking_freq.addEventListener("click", (e) => {
     e.preventDefault();
@@ -27,6 +34,7 @@ back_booking_freq.addEventListener("click", (e) => {
 
 })
 
+// Displays third form and hides the second
 const con_info = document.getElementById("confirmation_info")
 const next_booking_freq = document.getElementById("next_booking_freq")
 next_booking_freq.addEventListener("click", (e) => {
