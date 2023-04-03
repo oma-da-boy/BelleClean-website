@@ -42,6 +42,7 @@ next_booking_freq.addEventListener("click", (e) => {
     form_page_2.style.display = "none"
     form_page_3.style.display = "block"
 
+    //gets the form data from all forms
     let formdata = {
         first_name: first_name.value,
         last_name: last_name.value,
@@ -60,6 +61,7 @@ next_booking_freq.addEventListener("click", (e) => {
         baths: baths.value
     }
 
+     //makes a foruth page for confirmation
     con_info.innerHTML = `<div class="row booking center confirmation">
                     <div class="col">
                         <div class="row">
